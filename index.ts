@@ -9,7 +9,7 @@ const answers = await inquirer.prompt([
   {
     name: "userGuessedNumber",
     type: "number",
-    message: "please select a number between 10 - 1",
+    message: "please select a number betweens 10 - 1",
   },
 ]);
 if (answers.userGuessedNumber === randomNumber) {
